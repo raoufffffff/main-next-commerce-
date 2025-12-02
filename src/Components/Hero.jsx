@@ -48,7 +48,7 @@ const Hero = () => {
                     transition={{ duration: 0.6, delay: 0.2 }}
                     className="text-xl md:text-2xl text-gray-500 max-w-3xl mx-auto mb-10 leading-relaxed font-light"
                 >
-                    كن من <b>الرواد الأوائل</b> الذين يكتشفون مستقبل التجارة مع "متجري".
+                    كن من <b>الرواد الأوائل</b> الذين يكتشفون مستقبل التجارة مع "Next Commerce".
                     ابدأ مجاناً اليوم، وادفع فقط عندما تنجح.
                 </motion.p>
                 {/* ------------------------- */}
@@ -167,7 +167,7 @@ const Hero = () => {
 
                             {/* Video Player */}
                             <video
-                                src="https://firebasestorage.googleapis.com/v0/b/tawssilatrest.appspot.com/o/WhatsApp%20Video%202025-11-23%20at%202.55.55%20AM.mp4?alt=media&token=3c071f65-e13e-4991-9153-955b5abeda0a"
+                                src="https://firebasestorage.googleapis.com/v0/b/tawssilatrest.appspot.com/o/aa.mp4?alt=media&token=cbc93851-45e7-469b-9fb2-a0d4b3f99106"
                                 className="w-full h-full object-contain"
                                 controls
                                 autoPlay

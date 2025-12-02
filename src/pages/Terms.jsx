@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 
 const Terms = () => {
+    const currentYear = new Date().getFullYear();
 
     useEffect(() => {
         window.document.title = "سياسة الخصوصية - Next Commerce";
@@ -134,9 +135,12 @@ const Terms = () => {
                         <p className="font-semibold text-gray-900 mb-1">لديك استفسار حول خصوصيتك؟</p>
                         <p className="text-sm text-gray-600">نحن هنا للمساعدة في أي وقت.</p>
                     </div>
-                    <button className="px-6 py-2 bg-white text-gray-900 border border-gray-200 rounded-lg shadow-sm hover:bg-gray-50 transition-colors font-medium text-sm">
+                    <a
+                        target="_blank"
+                        href="https://api.whatsapp.com/send/?phone=213776966468"
+                        className="px-6 py-2 bg-white text-gray-900 border border-gray-200 rounded-lg shadow-sm hover:bg-gray-50 transition-colors font-medium text-sm">
                         تواصل معنا
-                    </button>
+                    </a>
                 </div>
             )
         }
@@ -206,7 +210,7 @@ const Terms = () => {
                     viewport={{ once: true }}
                     className="mt-12 text-center text-gray-400 text-sm"
                 >
-                    <p>© 2024 Next Commerce. جميع الحقوق محفوظة.</p>
+                    <p>© {currentYear} Next Commerce. جميع الحقوق محفوظة.</p>
                 </motion.div>
 
             </div>

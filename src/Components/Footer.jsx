@@ -21,7 +21,7 @@ const Footer = () => {
                             <li><a
                                 target="_blank"
                                 href="https://raoufhamoudi-nc.vercel.app/" className="hover:text-teal-500">واجهة المتجر</a></li>
-                            <li><a href="#" className="hover:text-teal-500">الأسعار</a></li>
+                            <li><Link to="/#pricing" className="hover:text-teal-500">الأسعار</Link></li>
                             {/* <li><a href="#" className="hover:text-teal-500">تطبيق التاجر</a></li> */}
                         </ul>
                     </div>
@@ -33,7 +33,9 @@ const Footer = () => {
                             <li><a
                                 target="_blank"
                                 href="https://api.whatsapp.com/send/?phone=213776966468" className="hover:text-teal-500">مركز المساعدة</a></li>
-                            <li><a href="https://custem-dashboard.onrender.com/" className="hover:text-teal-500">كيف أبدأ؟</a></li>
+                            <li><a
+                                target="_blank"
+                                href="https://custem-dashboard.onrender.com/" className="hover:text-teal-500">كيف أبدأ؟</a></li>
                         </ul>
                     </div>
 
